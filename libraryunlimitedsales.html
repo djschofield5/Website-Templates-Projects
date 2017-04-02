@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html>
+
+<head>
+	
+		<title> Library Unlimited</title>
+
+		<meta charset="utf-8"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://use.typekit.net/ckx8zfe.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+		<LINK REL=StyleSheet HREF="custom.css" TYPE="text/css" MEDIA=screen>
+
+		  
+
+		<script>
+
+		window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+
+		</script>
+
+
+		
+       
+</head>
+
+<body>
+	
+	<div id="header-title"> 
+
+	<h1 class="title"> LIBRARY <br /> <span class="title-2">UNLIMITED</span> </h1>
+
+	</div>
+
+	<div id="section-1"> 
+
+		<div id="patron-text">
+
+		<h1 class="patron-head"> Want to attract new patrons? </h1>
+
+		<p class="patron-para"> When we Google search a bestseller, we take it for granted that our local library won't appear. But why? A local, free copy is the <b>best</b> possible result. And a top search result is the best marketing a library can have. We empower libraries to engage their communities online with LibraryUnlimited: the first SEO platform for library resources. </p>
+
+		<div class="mobile">
+
+		<img src="images/book-image.png" class="mobile-image" width="260px" height="200px">
+		<figcaption class="image-caption">A LibraryUnlimited book page directs the user <br /> to their local library from Google.</figcaption></div>
+
+		<div class= "mobile-button"><button type="button" id="demo-button" onclick="smoothScroll(document.getElementById('request-demo'))"><span class="triangle"> </span>Request Demo </button></div>
+
+		</div>
+
+		<div id="library-image">
+
+		<img src="images/book-image.png" width="260px" height="200px">
+		<figcaption class="desk-image-caption">A LibraryUnlimited book page directs the user <br /> to their local library from Google.</figcaption>
+
+
+		</div>
+
+		
+	</div>
+
+	<div id="first-quote">
+
+	<h2> "We believe that in a search for  content, the library belongs on top" </h2> 
+
+	</div>
+
+	<div id="section-2">
+
+		<h2> Make your collections easy to discover! </h2>
+
+		<img src="images/product-shot.png" class="product-image" width="95%" height="30%">
+
+		<h3> We can supercharge your visibility. </h3>
+
+		<div class="list-wrapper"> 
+		<div class="list-item"> <span class="number">1</span> <h4> Extend your reach. </h4> <p> Library blogs and social media cater to library fans, but LibraryUnlimited appears in search results for everyone in your community.</p> </div>
+		<div class="list-item"> <span class="number">2</span><h4> Be recognized for your work. </h4> <p> Libraries offer amazing resources, but to most of your community they're a well-kept secret. LibraryUnlimited associates your collections with common search terms like "free ebook" or "learn spanish," freeing searchers to discover all that you offer. </p> </div>
+		<div class="list-item"> <span class="number">3</span><h4> Deliver a great experience. </h4> <p> LibraryUnlimited brings the ease of online shopping to libraries. Users can easily choose between different formats, browse recommendations, and read reviews. And, for new users, we streamline the process of applying for a library card, determining your nearest branch, and setting up accounts for 3rd-party services.  </div>
+		
+		</div>
+
+	</div>
+
+	<div id="request-demo">
+
+		<h2> Request Demo </h2>
+		<p class="request-p"> Ready to talk library marketing? We'd love to hear from you. </p>
+		<form>
+		<input type="text" value="&nbsp;Email Address" class="email-field">
+		<input type="submit" value="&ldquo;Let's Talk&rdquo;" class="submit-button"> 
+		</form>
+		<p class="credit-text"> We typically respond within 24 hours. </p>
+
+	</div>
+
+	<div id="founder-letter">
+
+
+
+	<h2> A letter from our founder </h2>
+	<div id="head-shot"><img src="images/head-shot.jpg" class="head-shot" width="127px" height="127px"></div>
+	<p class="first-p"> Hey, </p>
+
+	<p> When I took my first college job as a library assistant, I had no idea that I would one day create software for libraries. I was, however, awed at our library’s special collections--and distraught at how few students found them. These conflicting feelings stayed with me long after I graduated and began to work in advertising technology. </p>
+
+	<p> One day, while designing ads for an entertainment site, I realized that, deep down, I was rooting against myself. I was hoping that, in spite of my cleverly crafted tagline and my carefully selected photo, the person on the other side would manage to ignore me and focus on something that deserved his attention, like art, or classic literature, or learning a language. And I realized that if I could apply the lessons of digital advertising to the world of libraries, perhaps I could help him rise above the distraction.</p>
+
+	<p>LibraryUnlimited sprang from the hope that, in an age of influencers, people could be incited to think for themselves. That consumers could choose better than “Ten Things You Won’t Believe Are Real,” if given a choice. I see public libraries as our most natural friends and partners in this, and I hope you’ll join us in redefining online discovery and access.</p>
+
+	<p>Thanks,<br />
+	Trey</p>
+
+<p>P.S. If you see us at Future of Librarians, please say hi! It’s why we’re there.</p>
+
+	</div>
+
+
+		<div id="request-demo">
+
+		<h2> Request Demo </h2>
+		<p class="request-p"> Ready to talk library marketing? We'd love to hear from you. </p>
+		<form>
+		<input type="text" value="Email Address" class="email-field">
+		<input type="submit" value="&ldquo;Let's Talk&rdquo;" class="submit-button"> 
+		</form>
+		<p class="credit-text"> We typically respond within 24 hours. </p>
+
+	</div>
+
+
+	
+	
+
+</body>
+
+</html>
